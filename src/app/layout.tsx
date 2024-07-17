@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: "Francisco Assis Advogado",
+  title: "Francisco Assis | Advogado",
   description: "website do Francisco Assis Advogado apresentando seus serviços e sua historia",
   keywords: ["francisco", "assis", "advogado", "advogacia","Direito de Família" ,"Direito de Família", "Direito Civil", "Direito Trabalhista", "Direito do Consumidor", "solicitar abono", "Direito Público", "Concursos Públicos"],
   icons: {

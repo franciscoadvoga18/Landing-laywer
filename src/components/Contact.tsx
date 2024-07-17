@@ -64,9 +64,6 @@ const Contact = () => {
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div className="mb-12 max-w-[570px] lg:mb-0">
-                <span className="mb-4 block text-base font-semibold text-primary">
-                  Nos contate
-                </span>
                 <h2 className="mb-6 font-normalidad-bold text-3xl font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                     Entre em contato
                 </h2>
@@ -108,7 +105,7 @@ const Contact = () => {
                       Numero de telefone
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      (+55) 84 99894-1340
+                      (+55) 84 99168-0607
                     </p>
                   </div>
                 </div>

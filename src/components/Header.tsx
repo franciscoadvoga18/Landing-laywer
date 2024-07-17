@@ -36,12 +36,12 @@ export const Header = () => {
   }, []);
 
   return (
-    <header className={`bg-transparent w-full font-montserrat font-bold fixed top-0 z-50 ${scrolled ? "backdrop-filter backdrop-blur-lg bg-opacity-30 [&>div]:shadow-[0_4px_8px_0_rgba(0,0,0,0.2),0_6px_20px_0_rgba(0,0,0,0.19)]" : ""}`}>
+    <header className={`bg-transparent w-full font-montserrat font-bold fixed top-0 z-50 ${scrolled ? " bg-black/60" : ""}`}>
       <div className="max-w-screen-2xl mx-auto flex items-center py-4 px-4 lg:px-10 justify-between">
         <Link href="/">
           <Image objectFit="contain" width={147} height={37} src="/logo.png" alt="logo" />
         </Link>
-        <nav className={`flex lg:w-1/2 ${scrolled ? "text-black" : "text-white"}`}>
+        <nav className="flex lg:w-1/2 text-white">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <button className="rounded-full flex flex-col items-center justify-center gap-1 lg:hidden ">
@@ -82,7 +82,9 @@ export const Header = () => {
             </li>
           </ul>
           <Button aria-label="contato" className={`bg-white text-sm ml-auto lg:flex items-center justify-center hidden px-4 uppercase py-3 ${scrolled ? "text-black" : "text-red-600"} hover:text-white hover:bg-red-600`}>
-            Consulta Gratís
+            <a target="_blank" rel="noreferrer" href="https://wa.me/5584998941340">
+              Consulta Gratís
+            </a>
           </Button>
         </nav>
       </div>
