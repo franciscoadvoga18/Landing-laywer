@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 export const Hero = () => {
     return (
         <main id="inicio" className="lg:bg-bg-hero bg-no-repeat object-cover bg-bg-mobile bg-right-top bg-cover min-h-screen lg:min-h-[calc(100vh-100px)] h-full w-full lg:bg-center">
-            <MaxWidthWrapper className="h-screen lg:px-8 flex lg:items-center lg:justify-start relative">
+            <MaxWidthWrapper className="min-h-screen lg:px-8 flex lg:items-center lg:justify-start relative">
                 <div className="uppercase lg:grid place-content-center">
                     <h2 className="text-white text-base lg:text-xl my-2 lg:my-4 font-bold">Bem-vindo ao meu escritório virtual</h2>
                     <h1 className="text-white text-lg lg:text-3xl text-left font-normalidad-bold">
