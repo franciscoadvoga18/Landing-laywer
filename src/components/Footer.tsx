@@ -6,7 +6,7 @@ export const Footer = () => {
             <div className="mx-auto w-full max-w-screen-xl px-8 py-6 lg:px-0 lg:py-8">
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <a href="https://flowbite.com/" className="flex items-center">
+                    <a href="/" className="flex items-center">
                         <Image src="/logobranca.png" width={100} height={100} alt="logo" />
                     </a>
                 </div>
@@ -35,7 +35,7 @@ export const Footer = () => {
                                 <a href="https://www.facebook.com/p/Francisco-De-Assis-Advocacia-100093988308906/?locale=pa_IN" target="_blank" rel="noopener noreferrer" className="hover:underline ">Facebook</a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/assisfillho/" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
+                                <a href="https://www.instagram.com/franciscodeassis.advogado/" target="_blank" rel="noopener noreferrer" className="hover:underline">Instagram</a>
                             </li>
                         </ul>
                     </div>
