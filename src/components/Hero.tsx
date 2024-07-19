@@ -12,7 +12,7 @@ export const Hero = () => {
                         Seja qual for o desafio legal,<br></br> estamos aqui para representar <br></br>você com integridade e competência.
                     </h1>
                     <Button className="bg-red-500 py-8 max-w-xs" asChild>
-                        <Link href="https://wa.me/8499168-0607" className="lg:text-sm text-xs flex flex-col font-normalidad-bold items-start justify-center mt-6 lg:mt-10">
+                        <Link href="https://wa.me/84991680607" className="lg:text-sm text-xs flex flex-col font-normalidad-bold items-start justify-center mt-6 lg:mt-10">
                             <p className="text-white">Marque sua consulta</p>
                             <p className="text-white text-xs">(84) 99168-0607</p>
                         </Link>
