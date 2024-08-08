@@ -82,7 +82,7 @@ export const Header = () => {
             </li>
           </ul>
           <Button aria-label="contato" className={`bg-white text-sm ml-auto lg:flex items-center justify-center hidden px-4 uppercase py-3 ${scrolled ? "text-black" : "text-red-600"} hover:text-white hover:bg-red-600`}>
-            <a target="_blank" rel="noreferrer" href="https://wa.me/84991680607">
+            <a target="_blank" rel="noreferrer" href="https://wa.me/5584991680607">
               Consulta Gratís
             </a>
           </Button>
